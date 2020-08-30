@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    display:flex
+}
+.name{
+    flex:1;
+}
+.logo{
+    flex:0.05;
+
+}
+.basic{
+    display:flex;
+    flex-direction: column;
+}
+.page1{
+    height:100vh;
+    background-image:url("Layer2.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.page2{
+    height:100vh;
+    background-image: url("beautiful-16736_1280.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+.page3{
+    height:100vh;
+    background-image:url("Layer3.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.page4{
+    height:100vh;
+    background-image: url("Layer5.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+.black{
+    height:10vh;
+    background-image:url("Layer6.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.page1buttons{
+    padding-top: 2vh;
+    padding-left: 25vh;
+    padding-right: 25vh;    
+    display:flex;
+    color:white;
+
+}
+.txtwelcome1{
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    padding-top: 20vh;
+}
+.txtphotography1{
+    padding-top: 2vh;
+    text-align:center;
+    color:white;
+    font-size: 50px;
+}
+.butbrowse1{
+    flex:1;
+
+}
+.butjoin1
+{
+    flex:1;
+
+}
