@@ -44,14 +44,17 @@
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
+    text-align:center
 
 }
 .black{
-    height:10vh;
+    height:3vh;
     background-image:url("Layer6.png");
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
+    text-align:center;
+    color:white;
 }
 .page1buttons{
     padding-top: 2vh;
@@ -59,6 +62,7 @@
     padding-right: 25vh;    
     display:flex;
     color:white;
+    
 
 }
 .txtwelcome1{
@@ -86,6 +90,87 @@
 {
     padding-left:15vh;
     color:white;
+    font-size:20px;
     padding-top:10vh;
+    padding-right:80vh;
+
+}
+@media only screen and (max-width: 600px)
+{
+
+    
+.page2texts
+    {
+        padding-left:10vh;
+        padding-right:0vh;
+    } 
+ .page3texts
+    {
+        padding-left:10vh;
+        padding-right:5vh;
+    } 
+    .page4lasttext{
+
+        padding-left: 2vh;
+        padding-right: 2vh;
+        
+    
+    
+    }
+
+}
+.page3texts
+{
+    padding-left:90vh;
+    color:white;
+    font-size:20px;
+    padding-top:10vh;
+    padding-right: 25vh;
+    text-align:left;
+    color:black
+
+}
+.redhead{
+    color:red;
+    font-size: 50px;
+    
+}
+.slanting{
+    padding-top:10px;
+    padding-bottom:20px;
+    font-size:30px;
+    color:white;
+    border-top:solid;
+    border-bottom:solid;
+
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s
+}
+
+button:hover{
+    background-color: blue;
+}
+.page4texts{
+    color:white;
+    padding-top: 10vh;;
+}
+.page4lasttext{
+    padding-top: 2vh;
+    font-size:19px;
+    text-align:center;
+    padding-left: 35vh;
+    padding-right: 35vh;
+    padding-bottom:10vh;
+
 
 }
